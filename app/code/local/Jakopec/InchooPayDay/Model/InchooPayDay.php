@@ -4,18 +4,14 @@ class Jakopec_InchooPayDay_Model_InchooPayDay extends Mage_Payment_Model_Method_
 	
 
 	protected $_code = 'inchoopayday';
-	//protected $_formBlockType = 'inchoopayday/form_inchoopayday';
-	//protected $_infoBlockType = 'inchoopayday/info_inchoopayday';
+	protected $_formBlockType = 'inchoopayday/form_inchoopayday';
+	protected $_infoBlockType = 'inchoopayday/info_inchoopayday';
 
 	protected $_canAuthorize            = true;
 	protected $_canCapture              = true;
 	protected $_canRefund               = true;
 	protected $_canUseCheckout=true;
 	protected $_canSaveCc = false; 
-	protected $_isInitializeNeeded = true;
-
-   protected $_canUseInternal = true;
-
 	
 
 	public function process($data){
