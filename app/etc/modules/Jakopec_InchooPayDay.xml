@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jakopec_InchooPayDay>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Jakopec_InchooPayDay>
+    </modules>
+</config> 

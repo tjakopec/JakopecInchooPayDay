@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    	<!-- Na ovo sam potrošio najviše vremena zato jer sam stavljao na krivo mjesto, dak sam skužio da mora ići u rwd radi :) 
+		iako je pitanje kako će raditi na starijim CE verzijama koje nemaju rwd??
+		-->
+    	<update handle="dodajGlupuDinersSkriptu" />
+    </default>
+    <dodajGlupuDinersSkriptu>
+    	 <action method="addJs" block="head">
+            <file>jakopec/diners.js</file>
+        </action>
+    </dodajGlupuDinersSkriptu>
+</layout> 
